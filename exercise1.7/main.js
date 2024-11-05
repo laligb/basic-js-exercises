@@ -11,6 +11,7 @@ import { asyncUsePromiseWithCatch } from "./level2.js";
 import { promiseAllFun } from "./level3.js";
 
 // Testing Level 1
+console.log("\nExercise 1.7 level 1: ");
 usePromise();
 
 helloWithReject("Hello")
@@ -25,7 +26,9 @@ console.log("\nAsynchronous function: ");
 asyncUsePromise(helloPromise);
 
 // Testing Level 2
+console.log("\nExercise 1.7 level 2: ");
 asyncUsePromiseWithCatch(helloPromise);
 
 // Testing Level 3
+console.log("\nExercise 1.7 level 3: ");
 promiseAllFun();

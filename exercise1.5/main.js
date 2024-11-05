@@ -6,12 +6,17 @@ import { oneLineFun } from "./level2.js";
 import { checkSome, checkEvery } from "./level3.js";
 
 // Testing Level 1
+console.log("\nExercise 1.5 level 1: ");
 console.log(squares);
 console.log(onlyEven);
 console.log(findFirstNumb);
 console.log(totalSum);
+
+// Testing Level 2
+console.log("\nExercise 1.5 level 2: ");
 console.log(oneLineFun);
 
 // Testing Level 2
+console.log("\nExercise 1.5 level 2: ");
 console.log(checkEvery);
 console.log(checkSome);
