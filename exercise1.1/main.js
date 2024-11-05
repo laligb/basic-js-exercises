@@ -1,5 +1,6 @@
 import { add, randomNumber, Person } from "./level1.js";
 import { printNumbers } from "./level2.js";
+import { printMessageAfter3Seconds } from "./level3.js";
 
 // Testing Level 1
 console.log(add(2, 3));
@@ -11,3 +12,6 @@ newPerson.greet();
 // Testing Level 2
 let numbers = [32, 44, 55, 14, 3, 5, 66, 87, 1];
 printNumbers(numbers);
+
+// Testing Level 3
+setTimeout(printMessageAfter3Seconds, 3000);
