@@ -8,6 +8,7 @@ import {
   usePromise,
 } from "./level1.js";
 import { asyncUsePromiseWithCatch } from "./level2.js";
+import { promiseAllFun } from "./level3.js";
 
 // Testing Level 1
 usePromise();
@@ -22,4 +23,9 @@ helloWithReject("H")
 
 console.log("\nAsynchronous function: ");
 asyncUsePromise(helloPromise);
+
+// Testing Level 2
 asyncUsePromiseWithCatch(helloPromise);
+
+// Testing Level 3
+promiseAllFun();
