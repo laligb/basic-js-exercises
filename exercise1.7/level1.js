@@ -3,7 +3,7 @@
  * Creating a Promise: Creates a promise that resolves after 2 seconds and
  * returns the text string 'Hello, world'.
  */
-const helloPromise = new Promise((resolve) => {
+export const helloPromise = new Promise((resolve) => {
   setTimeout(() => {
     resolve("Hello, world");
   }, 2000);
@@ -39,11 +39,7 @@ export function helloWithReject(input) {
  * function to wait for the result of the promise created in Exercise 1, and
  * then prints that result to the console.
  */
-export async function asyncUsePromise() {
-  try {
-    const result = await helloPromise;
-    console.log(result);
-  } catch (error) {
-    console.log(error);
-  }
+export async function asyncUsePromise(promise) {
+  const result = await promise;
+  console.log(result);
 }
