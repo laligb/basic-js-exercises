@@ -1,6 +1,6 @@
 // main.js
-const { exec } = require("child_process");
-const path = require("path");
+import { exec } from "child_process";
+import { join } from "path";
 
 // List of exercises to run
 const exercises = [
@@ -16,7 +16,7 @@ const exercises = [
 // Function to run each exercise
 const runExercises = () => {
   exercises.forEach((exercise) => {
-    const exercisePath = path.join(__dirname, exercise); // Create absolute path
+    const exercisePath = join(process.cwd(), exercise); // Create absolute path
     exec(`node ${exercisePath}`, (error, stdout, stderr) => {
       if (error) {
         console.error(`Error executing ${exercise}: ${error.message}`);
