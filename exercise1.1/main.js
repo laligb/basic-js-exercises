@@ -1,3 +1,7 @@
+/**
+ * Arrow functions
+ */
+
 import { add, randomNumber, Person } from "./level1.js";
 import { printNumbers } from "./level2.js";
 import { printMessageAfter3Seconds } from "./level3.js";
