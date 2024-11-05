@@ -81,7 +81,3 @@ node main.js
 ```
 
 This command will execute each exercise in sequence and display their outputs in the terminal.
-
-## Contributing
-
-If you'd like to contribute to this project by adding more exercises or improving the existing ones, feel free to fork the repository and submit a pull request.
