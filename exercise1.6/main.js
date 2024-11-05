@@ -4,6 +4,7 @@
 
 import { printNames, useFilter, useForOf } from "./level1.js";
 import { useBreak, useForIn } from "./level2.js";
+import { printArrayAndIndex } from "./level3.js";
 
 // Testing Level 1
 let names = ["Anna", "Bernat", "Clara"];
@@ -17,3 +18,7 @@ let obj = { name: "Ona", age: 25, city: "Barcelona" };
 useForIn(obj);
 
 useBreak(numbers);
+
+// Testing Level 3
+let noms = ["Anna", "Bernat", "Clara"];
+printArrayAndIndex(noms);
