@@ -22,7 +22,7 @@ helloWithReject("H")
   .then((message) => console.log("Resolved:", message))
   .catch((error) => console.log("Rejected:", error));
 
-console.log("\nAsynchronous function: ");
+console.log("\nAsynchronous function helloPromise: ");
 asyncUsePromise(helloPromise);
 
 // Testing Level 2

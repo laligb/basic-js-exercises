@@ -16,4 +16,4 @@ export const canDriv = (age) =>
  * If num1 is greater, return 'num1 is greater'. If not, return 'num2 is greater'.
  */
 export const comparison = (num1, num2) =>
-  num1 > num2 ? "num1 is greater" : "num2 is greater";
+  num1 > num2 ? `${num1} is greater` : `${num2}  is greater`;

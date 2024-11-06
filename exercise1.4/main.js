@@ -10,8 +10,8 @@ console.log("\nExercise 1.4 level 1: ");
 let array1 = [2, 4, 1];
 let array2 = [56, 3, 8];
 
-console.log(usingSpread(array1, array2));
-console.log(usingRest(1, 2, 3, 4));
+console.log("Return one array from two: " + usingSpread(array1, array2)); // returns one array [...array1, ...array2];
+console.log("Rest operator: " + usingRest(1, 2, 3, 4));
 
 // Testing Level 2
 console.log("\nExercise 1.4 level 2: ");

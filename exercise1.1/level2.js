@@ -5,10 +5,8 @@
  * the console using an arrow function.
  */
 
-const printNumbers = (arrayOfNumbers) => {
+export const printNumbers = (arrayOfNumbers) => {
   for (let i = 0; i < arrayOfNumbers.length; i++) {
     console.log(arrayOfNumbers[i]);
   }
 };
-
-export { printNumbers };

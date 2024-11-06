@@ -4,4 +4,6 @@
  */
 
 const printMessageAfter3Seconds = () => console.log("Printed after 3 seconds!");
-export { printMessageAfter3Seconds };
+export function runTimeout() {
+  setTimeout(printMessageAfter3Seconds, 3000);
+}

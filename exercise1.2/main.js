@@ -15,11 +15,11 @@ console.log(comparison(24, 5));
 
 // Testing Level 2
 console.log("\nExercise 1.2 level 2: ");
-console.log(checkNumb(0));
-console.log(checkNumb(33));
-console.log(checkNumb(-9));
+console.log("Check 0: " + checkNumb(0));
+console.log("Check 33: " + checkNumb(33));
+console.log("Check -9: " + checkNumb(-9));
 
-console.log(findMaximum(3, 6, 2));
+console.log("Max of (3, 6, 2): " + findMaximum(3, 6, 2));
 
 // Testing Level 3
 console.log("\nExercise 1.2 level 3: ");

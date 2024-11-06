@@ -11,6 +11,12 @@ export const waitIsHello = (name, callback) => {
   }, 2000);
 };
 /**
+ * Callback function "Hello"
+ * @param {*} name
+ * @returns Hello ${name}
+ */
+export const sayHello = (name) => `Hello, ${name}`;
+/**
  * Exercise 4
  * Callbacks with arrays: Write a function processarElements that accepts two
  * parameters: an array and a callback function. The processElements function

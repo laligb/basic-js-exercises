@@ -2,14 +2,15 @@
  * Arrow functions
  */
 
-import { add, randomNumber, Person } from "./level1.js";
+import { add, randomNumber, Person, addArrow } from "./level1.js";
 import { printNumbers } from "./level2.js";
-import { printMessageAfter3Seconds } from "./level3.js";
+import { runTimeout } from "./level3.js";
 
 // Testing Level 1
 console.log("Exercise 1.1 level 1: ");
-console.log(add(2, 3));
-console.log(randomNumber());
+console.log("2+3=" + add(2, 3));
+console.log("7+1=" + addArrow(7, 1));
+console.log("Return random=" + randomNumber());
 
 const newPerson = new Person("Maria", "some property");
 newPerson.greet();
@@ -21,4 +22,4 @@ printNumbers(numbers);
 
 // Testing Level 3
 console.log("\nExercise 1.1 level 3: ");
-setTimeout(printMessageAfter3Seconds, 3000);
+runTimeout();

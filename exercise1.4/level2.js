@@ -19,8 +19,8 @@ export const object2 = { ...object1 };
  */
 export function useRestDestructor(array) {
   const [first, second, ...third] = array;
-  let var1 = first;
-  let var2 = second;
-  let var3 = third;
+
   console.log(`First: ${first}, Second: ${second}, Third: ${third}`);
 }
+
+// check

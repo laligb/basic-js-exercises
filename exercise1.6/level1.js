@@ -14,8 +14,8 @@ export function printNames(names) {
  * for-of: You have an array of names. Use a for-of loop to print each name to
  * the console: let names = ['Anna', 'Bernat', 'Clara'];
  */
-export function useForOf(numbers) {
-  for (const element of numbers) {
+export function useForOf(names) {
+  for (const element of names) {
     console.log(element);
   }
 }

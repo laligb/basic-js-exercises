@@ -6,6 +6,8 @@
 export function add(a, b) {
   return a + b;
 }
+// convert to arrow
+export const addArrow = (a, b) => a + b;
 
 /**
  * Exercise 2:
@@ -13,8 +15,7 @@ export function add(a, b) {
  * named randomNumber that takes no parameters and returns a random number
  * between 0 and 100.
  */
-const randomNumber = () => Math.random(0, 100);
-export { randomNumber };
+export const randomNumber = () => Math.random(0, 101);
 
 /**
  * Exercise 3:

@@ -6,8 +6,12 @@
  */
 
 // The process function
-export function process(number, callback) {
-  console.log(callback(number));
+export function checkCallbackProcess() {
+  function process(number, callback) {
+    console.log(`Callback process for ${number}: ` + callback(number));
+  }
+  const myCallback = (n) => n;
+  process(12, myCallback);
 }
 
 /**
@@ -17,6 +21,11 @@ export function process(number, callback) {
  * function must call the callback function with the two numbers as parameters.
  * Then, call calculator with a function that adds the two numbers.
  */
-export function calculator(num1, num2, callback) {
-  console.log(callback(num1, num2));
+export function checkCalculatorCallback() {
+  function calculator(num1, num2, callback) {
+    console.log(`Callback calculator: ${num1}+${num2}=` + callback(num1, num2));
+  }
+
+  const addNumsCallback = (n1, n2) => n1 + n2;
+  calculator(1, 7, addNumsCallback);
 }

@@ -20,7 +20,7 @@ export function useForIn(obj) {
  */
 export function useBreak(numbers) {
   for (const element of numbers) {
-    if (element == 5) {
+    if (element === 5) {
       break;
     }
     console.log(element);
